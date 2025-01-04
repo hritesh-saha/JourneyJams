@@ -23,12 +23,12 @@ git clone https://github.com/your-username/JourneyJams.git
 cd JourneyJams
 ```
 
-###Install the necessary dependencies:
+Install the necessary dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-##Run the program:
+Run the program:
 ```bash
 python downloader.py
 ```
