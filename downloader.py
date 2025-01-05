@@ -1,5 +1,4 @@
 import os
-from pytube import YouTube
 import yt_dlp
 from youtubesearchpython import VideosSearch
 
