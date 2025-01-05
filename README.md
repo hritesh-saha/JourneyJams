@@ -32,6 +32,13 @@ Run the program:
 ```bash
 python downloader.py
 ```
+
+## Run From Terminal:
+To directly run the program, execute the shell script:
+
+```bash
+bash Jams.sh
+```
 ## Usage
 
 1. **Enter the video name or keywords** to search for a YouTube video.
