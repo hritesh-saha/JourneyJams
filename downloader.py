@@ -37,12 +37,15 @@ def main():
         return
 
     print("Search Results:\n")
+    header = f"| {'S.no'}. | {'title':<70} - {'duration':<5} | {'link':<40} |"
+    print("-"*len(header))
     for i, result in enumerate(results, start=1):
         title = result.get("title", "Unknown Title")
+        title = title.split(",")[0].split(".")[0].strip()
         duration = result.get("duration", "Unknown Duration")
         link = result.get("link", "Unknown Link")
-        print(f"{i:<3}. {title:<70} - {duration:<5}   {link:<40}")
-        
+        print(f"| {i:<4}. | {title:<70} - {duration:<5} | {link:<40} |")
+    print("-"*len(header))    
     try:
         choice = int(input("\nEnter the number of the video you want to download: "))
         if (1 <= choice <= len(results)):
