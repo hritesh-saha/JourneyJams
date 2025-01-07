@@ -1,2 +1,3 @@
 yt-dlp==2024.12.23
 youtube-search-python==1.6.6
+httpx=0.23.3
