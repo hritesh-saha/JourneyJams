@@ -49,5 +49,10 @@ bash Jams.sh
 
 4. The video will be **downloaded as a `.webm` file** to a directory named `downloads` in the current working directory.
 
-
+## Docker Image
+You can pull the image from Docker Hub:
+```bash
+docker pull hriteshsaha4/journey-jams:latest
+```
+<br>
 <p align="center"><a href="https://github.com/hritesh-saha/JourneyJams/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=BSD-3-Clause&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a></p>
