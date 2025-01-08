@@ -14,5 +14,5 @@ COPY requirements.txt .
 # Install Python packages using pip
 RUN pip install -r requirements.txt
 
-# Default command to keep container running
-CMD ["bash"]
+# Default command to run downloader.py
+CMD ["python", "downloader.py"]
