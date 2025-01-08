@@ -52,17 +52,13 @@ bash Jams.sh
 ## Docker Image
 You can pull the image from Docker Hub:
 ```bash
-docker pull hriteshsaha4/journey-jams:latest
+docker pull hriteshsaha4/journey-jams:v1.0
 ```
 Once the image is pulled, run the container using this command:
 ```bash
-docker run -it hriteshsaha4/journey-jams:latest
+docker run -it hriteshsaha4/journey-jams:v1.0
 ```
-This will start the container and give you an interactive terminal. Once inside the container, run the following command to start the Python downloader script:
-```bash
-python downloader.py
-```
-This command will execute the `downloader.py` script inside the container.
+This will start the container, give you an interactive terminal and will execute the `downloader.py` script inside the container.
 <br>
 <br>
 <p align="center"><a href="https://github.com/hritesh-saha/JourneyJams/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=License&message=BSD-3-Clause&logoColor=d9e0ee&colorA=363a4f&colorB=b7bdf8"/></a></p>
